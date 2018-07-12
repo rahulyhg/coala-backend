@@ -1,0 +1,19 @@
+{
+  "name": "reinvanoyen/hector-app",
+  "description": "Starting application for Hector",
+  "require": {
+    "reinvanoyen/hector": "dev-master"
+  },
+  "authors": [
+    {
+      "name": "Rein Van Oyen",
+      "email": "reinvanoyen@gmail.com"
+    }
+  ],
+  "minimum-stability": "dev",
+  "autoload": {
+    "psr-4": {
+      "App\\": "app"
+    }
+  }
+}

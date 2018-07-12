@@ -1,0 +1,206 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "c94785f6206f909271966dbf84e1aae7",
+    "packages": [
+        {
+            "name": "psr/http-message",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/php-fig/http-message.git",
+                "reference": "f6561bf28d520154e4b0ec72be95418abe6d9363"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/php-fig/http-message/zipball/f6561bf28d520154e4b0ec72be95418abe6d9363",
+                "reference": "f6561bf28d520154e4b0ec72be95418abe6d9363",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.0.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Psr\\Http\\Message\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "PHP-FIG",
+                    "homepage": "http://www.php-fig.org/"
+                }
+            ],
+            "description": "Common interface for HTTP messages",
+            "homepage": "https://github.com/php-fig/http-message",
+            "keywords": [
+                "http",
+                "http-message",
+                "psr",
+                "psr-7",
+                "request",
+                "response"
+            ],
+            "time": "2016-08-06T14:39:51+00:00"
+        },
+        {
+            "name": "psr/log",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/php-fig/log.git",
+                "reference": "3490ba5925e6dcbe6de950c5c6b8dce9f6e96eda"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/php-fig/log/zipball/3490ba5925e6dcbe6de950c5c6b8dce9f6e96eda",
+                "reference": "3490ba5925e6dcbe6de950c5c6b8dce9f6e96eda",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.0.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Psr\\Log\\": "Psr/Log/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "PHP-FIG",
+                    "homepage": "http://www.php-fig.org/"
+                }
+            ],
+            "description": "Common interface for logging libraries",
+            "homepage": "https://github.com/php-fig/log",
+            "keywords": [
+                "log",
+                "psr",
+                "psr-3"
+            ],
+            "time": "2018-04-03T15:59:15+00:00"
+        },
+        {
+            "name": "reinvanoyen/aegis",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/reinvanoyen/aegis.git",
+                "reference": "d218e1a94982e706220940d926a06002f840a5ca"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/reinvanoyen/aegis/zipball/d218e1a94982e706220940d926a06002f840a5ca",
+                "reference": "d218e1a94982e706220940d926a06002f840a5ca",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^7.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "5.6.*"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Aegis\\": "lib/Aegis"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "authors": [
+                {
+                    "name": "Rein Van Oyen",
+                    "email": "reinvanoyen@gmail.com",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Extendable template engine",
+            "keywords": [
+                "template engine",
+                "templating"
+            ],
+            "time": "2018-06-29T19:58:06+00:00"
+        },
+        {
+            "name": "reinvanoyen/hector",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/reinvanoyen/hector.git",
+                "reference": "48b615437f2e8d386d3e80b59a724218223a759c"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/reinvanoyen/hector/zipball/48b615437f2e8d386d3e80b59a724218223a759c",
+                "reference": "48b615437f2e8d386d3e80b59a724218223a759c",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^7.0",
+                "psr/http-message": "^1.0",
+                "psr/log": "^1.0@dev",
+                "reinvanoyen/aegis": "dev-master"
+            },
+            "require-dev": {
+                "friendsofphp/php-cs-fixer": "^2.13@dev",
+                "phpunit/phpunit": "5.0.*"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Hector\\": "lib/Hector",
+                    "App\\": "app"
+                },
+                "files": [
+                    "lib/Hector/Helpers/Http.php",
+                    "lib/Hector/Helpers/Regex.php",
+                    "lib/Hector/Helpers/String.php",
+                    "lib/Hector/Helpers/Type.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "authors": [
+                {
+                    "name": "Rein Van Oyen",
+                    "email": "reinvanoyen@gmail.com",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Simple PHP MVC framework",
+            "time": "2018-07-12T11:06:41+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "dev",
+    "stability-flags": {
+        "reinvanoyen/hector": 20
+    },
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}
