@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "c94785f6206f909271966dbf84e1aae7",
+    "content-hash": "bf2b60fa48352754d9b037652a55c806",
     "packages": [
         {
             "name": "psr/http-message",
@@ -109,12 +109,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/reinvanoyen/aegis.git",
-                "reference": "d218e1a94982e706220940d926a06002f840a5ca"
+                "reference": "ecd831fd6f3ceb4fb20fb5af83483d73cad8e323"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/reinvanoyen/aegis/zipball/d218e1a94982e706220940d926a06002f840a5ca",
-                "reference": "d218e1a94982e706220940d926a06002f840a5ca",
+                "url": "https://api.github.com/repos/reinvanoyen/aegis/zipball/ecd831fd6f3ceb4fb20fb5af83483d73cad8e323",
+                "reference": "ecd831fd6f3ceb4fb20fb5af83483d73cad8e323",
                 "shasum": ""
             },
             "require": {
@@ -142,21 +142,16 @@
                 "template engine",
                 "templating"
             ],
-            "time": "2018-06-29T19:58:06+00:00"
+            "time": "2018-09-21T14:52:11+00:00"
         },
         {
             "name": "reinvanoyen/hector",
             "version": "dev-master",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/reinvanoyen/hector.git",
-                "reference": "48b615437f2e8d386d3e80b59a724218223a759c"
-            },
             "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/reinvanoyen/hector/zipball/48b615437f2e8d386d3e80b59a724218223a759c",
-                "reference": "48b615437f2e8d386d3e80b59a724218223a759c",
-                "shasum": ""
+                "type": "path",
+                "url": "../hector",
+                "reference": "e2335fccc0e72020c9c57cf930d6f58ddb6ad6cb",
+                "shasum": null
             },
             "require": {
                 "php": "^7.0",
@@ -181,7 +176,6 @@
                     "lib/Hector/Helpers/Type.php"
                 ]
             },
-            "notification-url": "https://packagist.org/downloads/",
             "authors": [
                 {
                     "name": "Rein Van Oyen",
@@ -190,7 +184,9 @@
                 }
             ],
             "description": "Simple PHP MVC framework",
-            "time": "2018-07-12T11:06:41+00:00"
+            "transport-options": {
+                "symlink": true
+            }
         }
     ],
     "packages-dev": [],
