@@ -9,11 +9,11 @@ class Example extends Controller
 {
     public function index()
     {
-    	$visits = Session::get('visits')+1;
+        $visits = Session::get('visits')+1;
 
-	    Session::set('visits', $visits);
-	    Session::save();
+        Session::set('visits', $visits);
+        Session::save();
 
-    	return 'Welcome to your application, you visited this example page '.$visits.' times.';
+        return 'Welcome to your application, you visited this example page '.$visits.' times.';
     }
 }

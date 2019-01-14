@@ -1,5 +1,5 @@
 <?php
 
 return [
-	new \App\Revisions\TestRevision(),
+	new \App\Revisions\CreateProjectTable(),
 ];
